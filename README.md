@@ -1,7 +1,7 @@
 # ElectricFence
 Arduino project to emulate and electric fence transmitter
 
-#Explanation
+# Explanation
 First, the output of an electric fence product was captured in Digilent Waveforms using a Digilent Analog Discovery 2 board. The capture was made at 800k samples per second, for a second. This capture was omitted in this repository due to its size.
 
 Next, this was converted from a CSV to a raw format for usage in GNU Radio Companion. Timestamps were removed using a simple regex in a text editor (vim). Then, analysis/convert.cpp was written to take in the list of decimal numbers and return a file of raw (4 byte) floats.
