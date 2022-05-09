@@ -1,3 +1,4 @@
+#pragma once
 const int changes = 345;
 
 unsigned long times[changes] = {
